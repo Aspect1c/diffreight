@@ -916,13 +916,13 @@
 
 <!-- SIDE NAVIGATION -->
 <nav class="side-nav" id="sideNav">
-    <a href="#section1" class="nav-item">🎯 Мета</a>
+    <a href="#section1" class="nav-item">🎯 Мета документа</a>
     <a href="#section2" class="nav-item">📝 Коли Створювати</a>
     <a href="#section3" class="nav-item">⚙️ Workflow</a>
     <a href="#section4" class="nav-item">✅ Реєстрація</a>
     <a href="#section5" class="nav-item">✅ Стандарт</a>
     <a href="#section6" class="nav-item">⚠️ Типові Помилки</a>
-    <a href="#section7" class="nav-item">🐛 Як Створити Bug</a>
+    <a href="#section7" class="nav-item">🐛 Bug</a>
     <a href="#section8" class="nav-item">📋 Приклад Bug</a>
     <a href="#section9" class="nav-item">📸 Lightshot</a>
     <a href="#section10" class="nav-item">🎥 JAM</a>
@@ -940,90 +940,63 @@
 <div class="container">
     <!-- COVER PAGE -->
     <div class="cover" id="cover">
-        <span class="badge-internal">v3.0 - Production Ready</span>
+        <span class="badge-internal">v3.1 - 15 Sections Premium</span>
         <div class="cover-content">
-            <h1>🚀 Jira Service Desk</h1>
-            <p class="subtitle">Повний посібник для першого звернення</p>
-            <p style="opacity: 0.9; font-size: 1.1rem; margin-top: 20px;">
-                Зручна інструкція як раціонально звертатися за допомогою, знаходити баги та чинити покращення
-            </p>
+            <h1>🚀 JIRA SERVICE DESK</h1>
+            <p class="subtitle">Інструкція для менеджерів ВОК / ВП / КЦ / логістів ERP</p>
+            <div class="meta">
+                <span>📋 Версія: 1.0</span>
+                <span>📅 Актуально на: 2026</span>
+                <span>🎯 Якість заявок: 100%</span>
+            </div>
         </div>
     </div>
 
     <!-- MAIN CONTENT -->
     <div class="content">
 
-        <!-- SECTION 1: BASICS -->
-        <h2 id="section1">🎯 Що таке Jira Service Desk?</h2>
-        
-        <p>
-            <strong>Jira Service Desk</strong> — це внутрішньокорпоративна портал для звітування про баги, помилки та пропозиції щодо покращення компонентів платформи.
-        </p>
+        <!-- SECTION 1: PURPOSE -->
+        <h2 id="section1">🎯 Мета документа</h2>
 
         <div class="info-block success">
-            <strong>✅ Основна мета:</strong>
-            <p>Створити структурований канал комунікації між користувачами та технічною командою для швидкого вирішення проблем.</p>
+            <strong>✨ Навіщо цей документ?</strong>
+            Ця інструкція допоможе вам швидко та правильно створювати звернення в Jira Service Desk, фіксувати баги, надсилати пропозиції щодо покращення та передавати технічній команді достатньо інформації для оперативного опрацювання.
         </div>
 
-        <h3>🔑 Ключові переваги</h3>
-        <ul>
-            <li>📊 <strong>Організація:</strong> Всі звернення в одному місці</li>
-            <li>🔍 <strong>Прозорість:</strong> Бачите статус вашої заявки</li>
-            <li>⚡ <strong>Швидкість:</strong> Приорітизовані баги вирішуються в той же день</li>
-            <li>💬 <strong>Комунікація:</strong> Прямий діалог з технічною командою</li>
-            <li>📈 <strong>Метрики:</strong> Команда може аналізувати тренди</li>
-        </ul>
-
-        <!-- FLOW DIAGRAM -->
-        <div style="margin: 40px 0;">
-            <p style="text-align: center; color: var(--primary); font-weight: 600; margin-bottom: 20px;">
-                🔄 Типовий цикл звернення:
-            </p>
-            <div class="flow-horizontal">
-                <div class="flow-item">🔍 Виявити</div>
-                <div class="flow-arrow">→</div>
-                <div class="flow-item">📝 Описати</div>
-                <div class="flow-arrow">→</div>
-                <div class="flow-item">📎 Прикріпити</div>
-                <div class="flow-arrow">→</div>
-                <div class="flow-item">✉️ Надіслати</div>
-                <div class="flow-arrow">→</div>
-                <div class="flow-item">👁️ Стежити</div>
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-number">⬇️ 40%</div>
+                <div class="stat-label">Менше уточнень</div>
             </div>
+            <div class="stat-box">
+                <div class="stat-number">⬆️ 3x</div>
+                <div class="stat-label">Швидше рішення</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">✅ 100%</div>
+                <div class="stat-label">Якість заявок</div>
+            </div>
+        </div>
+
+        <div class="info-block">
+            <strong>💡 Золоте правило</strong>
+            Якісно оформлена заявка скорочує кількість уточнень, пришвидшує аналіз проблеми, допомагає швидше знайти причину та прискорює виправлення або погодження змін.
         </div>
 
         <hr class="divider">
 
-        <!-- SECTION 2: TYPES -->
-        <h2 id="section2">📋 Типи звернень</h2>
+        <!-- SECTION 2: WHEN TO CREATE -->
+        <h2 id="section2">📝 Коли потрібно створювати звернення</h2>
 
-        <h3>🐛 Звернення типу BUG (помилка)</h3>
-        <p>Використовуйте, коли щось працює неправильно:</p>
+        <h3>🐛 Звернення типу BUG</h3>
+        <p>Створюйте Bug, якщо:</p>
         <ul>
-            <li>❌ Сторінка не завантажується</li>
-            <li>❌ Кнопка не реагує на клік</li>
-            <li>❌ Система вибиває помилку</li>
-            <li>❌ Дані не зберігаються</li>
+            <li>✗ функціонал працює некоректно або система не зберігає дані</li>
+            <li>✗ з'являється повідомлення про помилку</li>
+            <li>✗ кнопка, поле або форма не працюють як очікується</li>
+            <li>✗ поведінка системи відрізняється від очікуваної</li>
+            <li>✗ проблема блокує або ускладнює робочий процес</li>
         </ul>
-
-        <div class="comparison">
-            <div class="comp-block good">
-                <h5>✅ Хороший Bug звіт:</h5>
-                <ul>
-                    <li>Таблиця вантажів не зберігає дані</li>
-                    <li>При натисканні "Зберегти" з'являється помилка 500</li>
-                    <li>Блокує роботу</li>
-                </ul>
-            </div>
-            <div class="comp-block bad">
-                <h5>❌ Поганий Bug звіт:</h5>
-                <ul>
-                    <li>Щось не працює</li>
-                    <li>Вибиває помилку</li>
-                    <li>Потрібно виправити</li>
-                </ul>
-            </div>
-        </div>
 
         <h3>✨ Звернення типу IMPROVEMENT / ENHANCEMENT</h3>
         <p>Створюйте Improvement, якщо:</p>
@@ -1031,15 +1004,16 @@
             <li>🌟 потрібно покращити поточний функціонал</li>
             <li>🌟 є пропозиція щодо зміни логіки роботи</li>
             <li>🌟 потрібно зробити процес зручнішим або швидшим</li>
+            <li>🌟 потрібно додати нову поведінку або спростити існуючу</li>
         </ul>
 
         <h3>📎 Що додавати до заявки</h3>
         <ul>
-            <li><span class="badge">🔗 Посилання</span> на сторінку або модуль</li>
-            <li><span class="badge">📸 Скріншот</span> з обведенням проблеми</li>
-            <li><span class="badge">🎥 Відео або Jam</span> для складних сценаріїв</li>
-            <li><span class="badge">📋 Опис</span> проблеми</li>
-            <li><span class="badge">⚠️ Інформація</span> про блокування</li>
+            <li><span class="highlight">🔗 Посилання</span> на сторінку або модуль</li>
+            <li><span class="highlight">📸 Скріншот</span> з обведенням проблемної області</li>
+            <li><span class="highlight">🎥 Відео або Jam</span> для складних сценаріїв</li>
+            <li><span class="highlight">📋 Опис</span> фактичної та очікуваної поведінки</li>
+            <li><span class="highlight">⚠️ Інформація</span>, чи блокує проблема роботу</li>
         </ul>
 
         <hr class="divider">
@@ -1049,21 +1023,34 @@
 
         <p>🔄 Рекомендований сценарій від виявлення проблеми до надсилання:</p>
 
+        <div class="flow-horizontal">
+            <div class="flow-item">🔍 Проблема</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-item">📸 Фіксація</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-item">📋 Заявка</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-item">📎 Докази</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-item">✉️ Надсилання</div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-item">👁️ Моніторинг</div>
+        </div>
+
         <div class="step-container">
             <div class="step">
                 <div class="step-number">1️⃣</div>
                 <div class="step-content">
-                    <h4>Виявити проблему</h4>
-                    <p>Помітили щось не так? Запишіть контекст у чернетку. Що робили? Що сталося? Що сподівалися?</p>
+                    <h4>Виявити проблему або сформувати пропозицію</h4>
+                    <p>Помітили щось не так або є ідея покращення? Почніть звідси. Запишіть контекст у чернетку.</p>
                 </div>
             </div>
 
             <div class="step">
                 <div class="step-number">2️⃣</div>
                 <div class="step-content">
-                    <h4>Зафіксувати доказ</h4>
-                    <p>Зробіть скріншот (Lightshot), запишіть відео або Jam-посилання для контексту.</p>
-                    <div class="image-placeholder">Приклад: Скріншот з обведеною проблемою</div>
+                    <h4>Зафіксувати контекст</h4>
+                    <p>Зробіть скріншот (Lightshot), запишіть відео або Jam-посилання. Це дасть технічній команді повний контекст.</p>
                 </div>
             </div>
 
@@ -1079,7 +1066,7 @@
                 <div class="step-number">4️⃣</div>
                 <div class="step-content">
                     <h4>Обрати тип звернення</h4>
-                    <p>Виберіть <strong>Bug</strong> або <strong>Improvement / Enhancement</strong>.</p>
+                    <p>Виберіть <strong>Bug</strong> (для помилок) або <strong>Improvement / Enhancement</strong> (для ідей).</p>
                 </div>
             </div>
 
@@ -1087,8 +1074,7 @@
                 <div class="step-number">5️⃣</div>
                 <div class="step-content">
                     <h4>Заповнити форму максимально конкретно</h4>
-                    <p>Додайте всі деталі, посилання, скріншоти. Чим більше інформації, тим краще!</p>
-                    <div class="image-placeholder">Форма заявки з усіма полями</div>
+                    <p>Додайте деталі, посилання, скріншоти та всю необхідну інформацію. Чим більше контексту, тим краще!</p>
                 </div>
             </div>
 
@@ -1096,15 +1082,15 @@
                 <div class="step-number">6️⃣</div>
                 <div class="step-content">
                     <h4>Надіслати заявку</h4>
-                    <p>Натисніть кнопку надсилання та отримайте номер заявки. Збережіть його!</p>
+                    <p>Натисніть кнопку надсилання та отримайте номер заявки. Запишіть його для майбутнього посилання.</p>
                 </div>
             </div>
 
             <div class="step">
                 <div class="step-number">7️⃣</div>
                 <div class="step-content">
-                    <h4>Моніторити статус</h4>
-                    <p>Стежте за прогресом у розділі "Запити" та надавайте додаткову інформацію при потребі.</p>
+                    <h4>Моніторити статус та коментувати за потреби</h4>
+                    <p>Стежте за прогресом у розділі "Запити" та надавайте додаткову інформацію при необхідності.</p>
                 </div>
             </div>
         </div>
@@ -1114,140 +1100,283 @@
         <!-- SECTION 4: REGISTRATION -->
         <h2 id="section4">✅ Реєстрація в Help Center</h2>
 
-        <p>Пошаговая інструкція реєстрації:</p>
-
         <div class="step-container">
             <div class="step">
                 <div class="step-number">1️⃣</div>
                 <div class="step-content">
-                    <h4>Відкрийте Help Center</h4>
-                    <p>Перейдіть за посиланням на Help Center вашої компанії.</p>
-                    <div class="image-placeholder">Help Center вхідна сторінка</div>
+                    <h4>Відкрийте сторінку Help Center</h4>
+                    <p>Перейдіть за посиланням на корпоративний Help Center / Jira Service Desk.</p>
+                    <p><strong><!-- 🔗 Посилання на Help Center: [вставити ваше актуальне посилання] --></strong></p>
+                    <!-- 📸 [Скріншот: Сторінка входу в Help Center (поле email)] -->
                 </div>
             </div>
 
             <div class="step">
                 <div class="step-number">2️⃣</div>
                 <div class="step-content">
-                    <h4>Введіть email</h4>
-                    <p>У полі Email введіть вашу робочу адресу та натисніть Next.</p>
-                    <div class="image-placeholder">Форма входу</div>
+                    <h4>Введіть робочу електронну адресу</h4>
+                    <p>У полі <strong>Email address</strong> введіть свою робочу електронну адресу та натисніть <strong>Next</strong>.</p>
+                    <p>💡 Використовуйте ту адресу, на яку вам буде зручно отримувати повідомлення по заявках.</p>
+                    <!-- 📸 [Скріншот: Форма введення email] -->
                 </div>
             </div>
 
             <div class="step">
                 <div class="step-number">3️⃣</div>
                 <div class="step-content">
-                    <h4>Встановіть пароль</h4>
-                    <p>На пошту надійде лист з кнопкою для встановлення пароля. Натисніть її.</p>
+                    <h4>Отримайте лист для встановлення пароля</h4>
+                    <p>На пошту надійде лист від Help Center / Atlassian із кнопкою для встановлення пароля.</p>
+                    <p>📧 Відкрийте лист і натисніть <strong>Set password</strong>.</p>
+                    <!-- 📸 [Скріншот: Email з кнопкою "Set password"] -->
                 </div>
             </div>
 
             <div class="step">
                 <div class="step-number">4️⃣</div>
                 <div class="step-content">
-                    <h4>Заповніть профіль</h4>
-                    <p>Додайте ім'я, пароль та інші деталі. Готово!</p>
+                    <h4>Встановіть пароль і завершіть реєстрацію</h4>
+                    <p>Заповніть поля:</p>
+                    <ul style="margin-top: 12px;">
+                        <li>👤 Повне ім'я</li>
+                        <li>🔐 Пароль</li>
+                    </ul>
+                    <p style="margin-top: 16px;">Натисніть кнопку <strong>Set password</strong>.</p>
+                    <!-- 📸 [Скріншот: Сторінка встановлення пароля] -->
                 </div>
             </div>
         </div>
 
         <div class="info-block warning">
             <strong>❌ Лист не приходить?</strong>
-            <p>Перевірте папки Spam, Promotions. Якщо листа немає, спробуйте повторно або звертайтесь до техсупорту.</p>
+            <p>📧 Перевірте папки <strong>Spam, Promotions, Інше</strong>. Якщо листа немає, спробуйте повторно використати форму входу або звертайтесь до відповідального за інтеграцію.</p>
         </div>
 
         <hr class="divider">
 
-        <!-- SECTION 5: IMPROVEMENT -->
-        <h2 id="section5">🌟 Як створити Improvement</h2>
+        <!-- SECTION 5: STANDARD -->
+        <h2 id="section5">✅ Стандарт якісної заявки</h2>
 
-        <p>Типи пропозицій для Improvement:</p>
-        <ul>
-            <li>🔄 Змінити поточну логіку</li>
-            <li>⭐ Покращити зручність</li>
-            <li>➕ Додати нову функцію</li>
-            <li>🧹 Спростити сценарій</li>
-        </ul>
+        <p>🎯 Якісна заявка повинна містити:</p>
 
-        <table>
-            <tr>
-                <th>📌 Поле</th>
-                <th>📝 Приклад</th>
-            </tr>
-            <tr>
-                <td><strong>Summary</strong></td>
-                <td>Додати можливість редагування таблиці вантажів</td>
-            </tr>
-            <tr>
-                <td><strong>Description</strong></td>
-                <td>Користувачам потрібна можливість редагувати таблицю після створення для швидкої зміни даних</td>
-            </tr>
-            <tr>
-                <td><strong>Priority</strong></td>
-                <td>Medium / High</td>
-            </tr>
-            <tr>
-                <td><strong>Attachments</strong></td>
-                <td>Скріншот + макет + Jam-посилання</td>
-            </tr>
-        </table>
+        <div class="checklist">
+            <h4>✓ Чекліст для якісної заявки:</h4>
+            <ol>
+                <li>📌 <strong>Summary</strong> — чіткий, зрозумілий, конкретний</li>
+                <li>📝 <strong>Description</strong> — короткий опис проблеми</li>
+                <li>❌ <strong>Фактична поведінка</strong> — що відбувається зараз</li>
+                <li>✅ <strong>Очікувана поведінка</strong> — що мало б відбуватися</li>
+                <li>⚠️ <strong>Пріоритет</strong> — чи блокує робочий процес</li>
+                <li>🔗 <strong>Посилання</strong> — на сторінку / модуль</li>
+                <li>📎 <strong>Вкладення</strong> — скріншот / Jam / видео</li>
+            </ol>
+        </div>
+
+        <div class="info-block warning">
+            <strong>❌ Помилки, яких потрібно уникати:</strong>
+            <ul>
+                <li>Занадто загальний Summary ("не працює", "щось зламалось")</li>
+                <li>Фрази без контексту та деталей</li>
+                <li>Відсутність посилання на сторінку</li>
+                <li>Без скріншота / Jam / відео</li>
+                <li>Не описана фактична / очікувана поведінка</li>
+            </ul>
+        </div>
 
         <hr class="divider">
 
-        <!-- SECTION 6: JAM -->
-        <h2 id="section6">🎥 JAM.DEV — Запис з контекстом</h2>
+        <!-- SECTION 6: COMMON MISTAKES -->
+        <h2 id="section6">⚠️ Типові помилки при створенні заявок</h2>
 
-        <p>✅ Jam рекомендується коли:</p>
-        <ul>
-            <li>🎯 Проблему складно пояснити словами</li>
-            <li>🔄 Є кілька кроків до помилки</li>
-            <li>📹 Потрібно показати весь сценарій</li>
-        </ul>
-
-        <div class="info-block success">
-            <strong>✅ Jam дає максимум контексту</strong>
-            <p>Замість опису словами просто покажіть сценарій — команда все одразу зрозуміє!</p>
+        <div class="two-column">
+            <div>
+                <h4>❌ Помилки в Summary:</h4>
+                <ul>
+                    <li>"Не працює"</li>
+                    <li>"Щось зламалось"</li>
+                    <li>"Вибиває помилку"</li>
+                    <li>"Потрібно змінити"</li>
+                </ul>
+            </div>
+            <div>
+                <h4>✅ Правильний Summary:</h4>
+                <ul>
+                    <li>"Не зберігаються дані в таблиці"</li>
+                    <li>"Помилка 500 при натисканні кнопки"</li>
+                    <li>"Фільтр за датою не працює"</li>
+                    <li>"Додати редагування форми"</li>
+                </ul>
+            </div>
         </div>
+
+        <div class="two-column">
+            <div>
+                <h4>❌ Помилки в Description:</h4>
+                <ul>
+                    <li>Тільки слово "баг"</li>
+                    <li>Занадто короткий опис</li>
+                    <li>Без деталей</li>
+                    <li>Не вказано контекст</li>
+                </ul>
+            </div>
+            <div>
+                <h4>✅ Правильний Description:</h4>
+                <ul>
+                    <li>Коротко, але ясно</li>
+                    <li>З деталями і кроками</li>
+                    <li>З контекстом проблеми</li>
+                    <li>З посиланням на сторінку</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- SECTION 7: BUG -->
+        <h2 id="section7">🐛 Як створити Bug</h2>
+
+        <h3>Коли це використовується</h3>
+        <p>⚠️ Створюйте Bug, якщо:</p>
+        <ul>
+            <li>✗ функціонал не працює</li>
+            <li>✗ система видає помилку</li>
+            <li>✗ дані не зберігаються</li>
+            <li>✗ результат не відповідає очікуваному</li>
+            <li>✗ проблема блокує вашу роботу</li>
+        </ul>
 
         <div class="step-container">
             <div class="step">
                 <div class="step-number">1️⃣</div>
                 <div class="step-content">
-                    <h4>Встановіть Jam розширення</h4>
-                    <p>Перейдіть на jam.dev і встановіть розширення для вашого браузера.</p>
+                    <h4>Оберіть тип Bug на Home Help Center</h4>
+                    <p>Натисніть на блок <strong>Bug</strong>, щоб відкрити форму.</p>
+                    <!-- 📸 [Скріншот: Плитка "Bug" на головній] -->
                 </div>
             </div>
 
             <div class="step">
                 <div class="step-number">2️⃣</div>
                 <div class="step-content">
-                    <h4>Натисніть запис</h4>
-                    <p>Кліканьте іконку Jam у панелі браузера та виберіть "Record Tab".</p>
+                    <h4>Заповніть поле Summary</h4>
+                    <p>Коротко та <strong>конкретно</strong> вкажіть суть проблеми.</p>
+                    <div class="comparison">
+                        <div class="comp-block good">
+                            <h5>✅ Хороший Summary:</h5>
+                            <ul>
+                                <li>Не зберігаються зміни в таблиці</li>
+                                <li>Після натискання кнопки помилка 500</li>
+                                <li>Не працює фільтр за датою</li>
+                            </ul>
+                        </div>
+                        <div class="comp-block bad">
+                            <h5>❌ Поганий Summary:</h5>
+                            <ul>
+                                <li>Не працює</li>
+                                <li>Помилка</li>
+                                <li>Баг у формі</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="step">
                 <div class="step-number">3️⃣</div>
                 <div class="step-content">
-                    <h4>Запишіть проблему</h4>
-                    <p>Повторіть проблему крок за кроком перед камерою. Закінчите запис.</p>
+                    <h4>Заповніть поле Description</h4>
+                    <p>Коротко поясніть, у чому проблема.</p>
+                    <div class="example-block">
+                        <div class="label">📌 Приклад:</div>
+                        Під час редагування таблиці вантажів після внесення даних і натискання кнопки застосування система не зберігає зміни та повертає помилку.
+                    </div>
                 </div>
             </div>
 
             <div class="step">
                 <div class="step-number">4️⃣</div>
                 <div class="step-content">
-                    <h4>Скопіюйте посилання</h4>
-                    <p>Додайте посилання до заявки у Jira Service Desk.</p>
+                    <h4>Вкажіть фактичну поведінку</h4>
+                    <p>Опишіть, що саме відбувається <strong>зараз</strong>.</p>
+                    <div class="example-block">
+                        <div class="label">📌 Приклад:</div>
+                        Дані не вносяться у форму. Після натискання "Застосувати" система не зберігає значення та показує помилку.
+                    </div>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">5️⃣</div>
+                <div class="step-content">
+                    <h4>Вкажіть очікувану поведінку</h4>
+                    <p>Опишіть, що <strong>мало б відбуватися</strong>.</p>
+                    <div class="example-block">
+                        <div class="label">📌 Приклад:</div>
+                        Після натискання "Застосувати" внесені дані повинні коректно зберігатися у формі без помилки.
+                    </div>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">6️⃣</div>
+                <div class="step-content">
+                    <h4>Вкажіть пріоритет: чи блокує робочий процес?</h4>
+                    <p>Оберіть:</p>
+                    <ul style="margin-top: 12px;">
+                        <li>🔴 <strong>Yes</strong> — якщо без цього неможливо продовжити роботу</li>
+                        <li>🟡 <strong>No</strong> — якщо є обхідний шлях або менші труднощі</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">7️⃣</div>
+                <div class="step-content">
+                    <h4>Додайте скріншот або Jam-посилання</h4>
+                    <p>Для складних сценаріїв або динамічних помилок:</p>
+                    <ul style="margin-top: 12px;">
+                        <li>📸 Додайте <strong>скріншот через Lightshot</strong></li>
+                        <li>🎥 Або запишіть <strong>Jam-посилання</strong></li>
+                    </ul>
+                    <div class="info-block">
+                        <strong>💡 Коли Jam особливо корисний:</strong>
+                        <ul>
+                            <li>Проблема не відтворюється одним скріншотом</li>
+                            <li>Важливо показати послідовність дій</li>
+                            <li>Баг виникає не одразу</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">8️⃣</div>
+                <div class="step-content">
+                    <h4>Додайте посилання на сторінку</h4>
+                    <p>🔗 Вставте пряме посилання на сторінку / модуль, де виникла проблема. Це допоможе технічній команді швидше перейти до потрібного місця.</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">9️⃣</div>
+                <div class="step-content">
+                    <h4>Перевірте форму ще раз</h4>
+                    <p>✓ Переконайтесь, що всі поля заповнені та все зрозуміло. Це останній момент для правок!</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">🔟</div>
+                <div class="step-content">
+                    <h4>Надішліть заявку</h4>
+                    <p>✉️ Натисніть <strong>Submit</strong> та отримайте номер дефекту. Команда почне його розглядання одразу!</p>
                 </div>
             </div>
         </div>
 
         <hr class="divider">
 
-        <!-- SECTION 7: EXAMPLE -->
-        <h2 id="section7">📋 Приклад якісного звіту</h2>
+        <!-- SECTION 8: EXAMPLE -->
+        <h2 id="section8">📋 Приклад якісного Bug-репорту</h2>
 
         <table>
             <tr>
@@ -1256,15 +1385,23 @@
             </tr>
             <tr>
                 <td><strong>Summary</strong></td>
-                <td>Не зберігаються зміни у таблиці вантажів</td>
+                <td>Не зберігаються зміни в таблиці вантажів</td>
             </tr>
             <tr>
                 <td><strong>Description</strong></td>
-                <td>При редагуванні таблиці користувач вносить дані, натискає "Застосувати", але система не зберігає зміни та показує помилку 500.</td>
+                <td>Під час редагування таблиці для вантажів користувач вносить дані у форму, після чого натискає кнопку застосування, але система не зберігає зміни та повертає помилку.</td>
             </tr>
             <tr>
-                <td><strong>Блокує роботу</strong></td>
-                <td>🔴 Yes (блокує завершення оформлення)</td>
+                <td><strong>Блокує процес</strong></td>
+                <td>🔴 <strong>Yes</strong> (блокує завершення оформлення цінової)</td>
+            </tr>
+            <tr>
+                <td><strong>Фактична поведінка</strong></td>
+                <td>Після натискання "Застосувати" зміни не зберігаються, дані не відображаються у формі.</td>
+            </tr>
+            <tr>
+                <td><strong>Очікувана поведінка</strong></td>
+                <td>Дані мають коректно зберігатися та відображатися у формі без помилок.</td>
             </tr>
             <tr>
                 <td><strong>Посилання</strong></td>
@@ -1272,30 +1409,316 @@
             </tr>
             <tr>
                 <td><strong>Додатки</strong></td>
-                <td>📸 Скріншот + 🎥 Jam + 📹 Лайтшот</td>
+                <td>📸 Скріншот + 🎥 Jam-посилання + 📸 Lightshot</td>
             </tr>
         </table>
 
         <hr class="divider">
 
-        <!-- SECTION 8: VIEW TICKETS -->
-        <h2 id="section8">👁️ Як переглядати заявки</h2>
+        <!-- SECTION 9: LIGHTSHOT -->
+        <h2 id="section9">📸 LIGHTSHOT — Швидкі скріншоти з позначками</h2>
+
+        <h3>Для чого використовувати Lightshot</h3>
+
+        <p>⚡ Lightshot зручно використовувати, якщо:</p>
+        <ul>
+            <li>✓ Достатньо одного скріншота</li>
+            <li>✓ Проблема візуально помітна на одному екрані</li>
+            <li>✓ Потрібно швидко обвести конкретне поле або кнопку</li>
+            <li>✓ Потрібно додати стрілки, рамки або короткий коментар</li>
+        </ul>
+
+        <div class="info-block success">
+            <strong>⚡ Lightshot дозволяє:</strong>
+            <ul>
+                <li>🎬 Зробити скріншот кількома кліками</li>
+                <li>✏️ Обвести проблемну область</li>
+                <li>🖍️ Додати стрілки і текст</li>
+                <li>📋 Одразу вставити в Jira (Ctrl+V / Cmd+V)</li>
+            </ul>
+        </div>
+
+        <h3>Встановлення Lightshot</h3>
 
         <div class="step-container">
             <div class="step">
                 <div class="step-number">1️⃣</div>
                 <div class="step-content">
-                    <h4>Меню профілю</h4>
-                    <p>У правому верхньому куті натисніть на іконку профілю.</p>
+                    <h4>Перейдіть на сторінку Lightshot</h4>
+                    <p><!-- 🔗 Посилання на Lightshot: [вставити актуальне посилання на Lightshot] --></p>
                 </div>
             </div>
 
             <div class="step">
                 <div class="step-number">2️⃣</div>
                 <div class="step-content">
-                    <h4>Оберіть "Запити"</h4>
-                    <p>Натисніть розділ Requests / Запити.</p>
-                    <div class="image-placeholder">Меню профілю</div>
+                    <h4>Встановіть розширення</h4>
+                    <p>⬇️ Натисніть "Add to Chrome" (або для вашого браузера).</p>
+                    <!-- 📸 [Скріншот: Lightshot у Chrome Web Store] -->
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3️⃣</div>
+                <div class="step-content">
+                    <h4>Закріпіть розширення у панелі</h4>
+                    <p>📌 Натисніть на іконку розширень у верхній панелі → знайдіть Lightshot → натисніть <strong>pin</strong>.</p>
+                    <!-- 📸 [Скріншот: Меню розширень з pin біля Lightshot] -->
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">4️⃣</div>
+                <div class="step-content">
+                    <h4>Перевірте іконку у панелі</h4>
+                    <p>✅ Іконка Lightshot тепер завжди видима у верхній панелі браузера. Готово!</p>
+                </div>
+            </div>
+        </div>
+
+        <h3>Як зробити скріншот через Lightshot</h3>
+
+        <div class="step-container">
+            <div class="step">
+                <div class="step-number">1️⃣</div>
+                <div class="step-content">
+                    <h4>Натисніть на іконку Lightshot</h4>
+                    <p>🎬 Іконка у верхній панелі браузера. Натисніть на неї.</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">2️⃣</div>
+                <div class="step-content">
+                    <h4>Виділіть потрібну область</h4>
+                    <p>🖱️ Клікніть і перетягніть, щоб обрати ділянку екрана для скріншота.</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3️⃣</div>
+                <div class="step-content">
+                    <h4>Додайте позначки (за потреби)</h4>
+                    <p>✏️ Додайте:</p>
+                    <ul style="margin-top: 12px;">
+                        <li>➡️ Стрілки</li>
+                        <li>⬜ Рамку або обведення</li>
+                        <li>📝 Текст з поясненням</li>
+                        <li>🟨 Підсвітку</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">4️⃣</div>
+                <div class="step-content">
+                    <h4>Збережіть або скопіюйте</h4>
+                    <p>💾 Натисніть "Copy" для копіювання, потім вставте в Jira (Ctrl+V / Cmd+V). Просто і швидко!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-block">
+            <strong>💡 Рекомендація для Bug-репортів:</strong>
+            <p>🖍️ Обводьте проблемне поле, кнопку, повідомлення про помилку або неправильну ділянку інтерфейсу. Це помітно допоможе технічній команді зрозуміти, де саме виникає проблема.</p>
+        </div>
+
+        <hr class="divider">
+
+        <!-- SECTION 10: JAM -->
+        <h2 id="section10">🎥 JAM.DEV — Запис багів з повним контекстом</h2>
+
+        <h3>Для чого використовувати Jam</h3>
+
+        <p>✅ Jam рекомендується, коли:</p>
+        <ul>
+            <li>🎯 Проблему складно пояснити словами</li>
+            <li>🔄 Є кілька кроків до помилки</li>
+            <li>📹 Потрібно показати сценарій від початку до збою</li>
+            <li>🖱️ Проблема пов'язана з формами, кліками, переходами, нестабільною поведінкою</li>
+        </ul>
+
+        <div class="info-block success">
+            <strong>✅ Jam дає технічній команді максимум контексту</strong>
+            <p>Замість описання словами можна просто показати повний сценарій — команда все одразу зрозуміє и почне аналіз набагато швидше!</p>
+        </div>
+
+        <h3>Встановлення Jam</h3>
+
+        <div class="step-container">
+            <div class="step">
+                <div class="step-number">1️⃣</div>
+                <div class="step-content">
+                    <h4>Перейдіть на сторінку Jam</h4>
+                    <p><!-- 🔗 Посилання на Jam: [вставити актуальне посилання на Jam] --></p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">2️⃣</div>
+                <div class="step-content">
+                    <h4>Встановіть розширення</h4>
+                    <p>⬇️ Натисніть "Add to Chrome" (або для вашого браузера).</p>
+                    <!-- 📸 [Скріншот: Сторінка Jam на Chrome Web Store] -->
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3️⃣</div>
+                <div class="step-content">
+                    <h4>Перевірте іконку у панелі браузера</h4>
+                    <p>📍 Після встановлення іконка Jam повинна з'явитися у верхній панелі браузера.</p>
+                    <!-- 📸 [Скріншот: Іконка Jam у панелі браузера] -->
+                </div>
+            </div>
+        </div>
+
+        <h3>Як записати проблему в Jam</h3>
+
+        <div class="step-container">
+            <div class="step">
+                <div class="step-number">1️⃣</div>
+                <div class="step-content">
+                    <h4>Натисніть на іконку Jam</h4>
+                    <p>🎬 Іконка знаходиться у верхній панелі браузера. Натисніть на неї.</p>
+                    <!-- 📸 [Скріншот: Меню Jam після натискання іконки] -->
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">2️⃣</div>
+                <div class="step-content">
+                    <h4>Авторизуйтесь (якщо потрібно)</h4>
+                    <p>🔐 Якщо ви вперше, натисніть <strong>Login</strong> та авторизуйтесь через Google, email або інший спосіб.</p>
+                    <!-- 📸 [Скріншот: Вікно входу в Jam] -->
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3️⃣</div>
+                <div class="step-content">
+                    <h4>Оберіть "Record Tab"</h4>
+                    <p>⏹️ Натисніть на кнопку <strong>Record Tab</strong>.</p>
+                    <!-- 📸 [Скріншот: Кнопка "Record Tab"] -->
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">4️⃣</div>
+                <div class="step-content">
+                    <h4>Виберіть область для запису</h4>
+                    <p>📺 Виберіть <strong>Tab</strong> (поточна вкладка) або <strong>Desktop</strong> (весь екран).</p>
+                    <!-- 📸 [Скріншот: Вибір "Tab" або "Desktop"] -->
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">5️⃣</div>
+                <div class="step-content">
+                    <h4>Дайте дозвіл на запис екрана</h4>
+                    <p>✅ Дозвольте браузеру записувати екран. Дозвіл потрібен тільки один раз.</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">6️⃣</div>
+                <div class="step-content">
+                    <h4>Запишіть проблему крок за кроком</h4>
+                    <p>⏱️ Перед вами з'явиться панель запису з таймером. Повторіть проблему від початку до кінця.</p>
+                    <!-- 📸 [Скріншот: Панель запису з таймером] -->
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">7️⃣</div>
+                <div class="step-content">
+                    <h4>Завершіть запис</h4>
+                    <p>⏹️ Натисніть кнопку зупинки запису.</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">8️⃣</div>
+                <div class="step-content">
+                    <h4>Отримайте посилання Jam</h4>
+                    <p>🔗 Натисніть <strong>Create & copy link</strong>, щоб скопіювати посилання на запис.</p>
+                    <!-- 📸 [Скріншот: Кнопка "Create & copy link"] -->
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">9️⃣</div>
+                <div class="step-content">
+                    <h4>Вставте посилання в Jira</h4>
+                    <p>📋 Перейдіть до заявки в Jira Service Desk і вставте Jam-посилання у поле <strong>Links</strong> або <strong>Description</strong>.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- SECTION 11: JAM vs LIGHTSHOT -->
+        <h2 id="section11">🤔 Що обрати: Jam чи Lightshot?</h2>
+
+        <table>
+            <tr>
+                <th>⚙️ Параметр</th>
+                <th>📸 Lightshot</th>
+                <th>🎥 Jam</th>
+            </tr>
+            <tr>
+                <td><strong>⏱️ Час на створення</strong></td>
+                <td>⚡ 30 секунд</td>
+                <td>⏳ 2–5 хвилин</td>
+            </tr>
+            <tr>
+                <td><strong>📌 Коли використовувати</strong></td>
+                <td>Одна картинка, чіткий фокус</td>
+                <td>Динаміка, послідовність дій, контекст</td>
+            </tr>
+            <tr>
+                <td><strong>🎯 Складність проблеми</strong></td>
+                <td>Проста, видна на 1 екрані</td>
+                <td>Складна, багато кроків</td>
+            </tr>
+            <tr>
+                <td><strong>✏️ Можливість позначок</strong></td>
+                <td>✅ Так (стрілки, рамки, текст)</td>
+                <td>❌ Ні (але запис говорить сам за себе)</td>
+            </tr>
+            <tr>
+                <td><strong>🔊 Можливість звуку</strong></td>
+                <td>❌ Ні</td>
+                <td>✅ Так (можна записати коментар)</td>
+            </tr>
+        </table>
+
+        <div class="info-block success">
+            <strong>🏆 Найкращий варіант для критичних дефектів:</strong>
+            <p>💎 <strong>Скріншот (Lightshot)</strong> + <strong>Jam-посилання</strong> + <strong>Пряме посилання на сторінку</strong></p>
+            <p>Такий комбо значно підвищує якість заявки і дозволяє технічній команді одразу розпочати аналіз без зайвих питань!</p>
+        </div>
+
+        <hr class="divider">
+
+        <!-- SECTION 12: VIEW TICKETS -->
+        <h2 id="section12">👁️ Як переглядати свої заявки</h2>
+
+        <div class="step-container">
+            <div class="step">
+                <div class="step-number">1️⃣</div>
+                <div class="step-content">
+                    <h4>Відкрийте меню профілю</h4>
+                    <p>👤 У правому верхньому куті Help Center натисніть на іконку або ім'я вашого профілю.</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">2️⃣</div>
+                <div class="step-content">
+                    <h4>Оберіть розділ "Запити"</h4>
+                    <p>📋 Натисніть на пункт <strong>Запити / Requests</strong>.</p>
+                    <!-- 📸 [Скріншот: Меню профілю з пунктами] -->
                 </div>
             </div>
 
@@ -1303,74 +1726,124 @@
                 <div class="step-number">3️⃣</div>
                 <div class="step-content">
                     <h4>Переглядайте свої заявки</h4>
-                    <p>Бачите всі ваші звернення зі статусами: Open, In Progress, Resolved, Closed.</p>
+                    <p>У цьому розділі ви можете:</p>
+                    <ul style="margin-top: 12px;">
+                        <li>📋 Переглядати всі свої заявки</li>
+                        <li>🔢 Бачити номер кожної заявки</li>
+                        <li>⏱️ Перевіряти статус (Open / In Progress / Resolved / Closed)</li>
+                        <li>🗂️ Відкривати картку заявки для деталей</li>
+                        <li>💬 Додавати коментарі та вкладення</li>
+                    </ul>
+                    <!-- 📸 [Скріншот: Список всіх заявок з фільтрами] -->
                 </div>
             </div>
 
             <div class="step">
                 <div class="step-number">4️⃣</div>
                 <div class="step-content">
-                    <h4>Кліканьте на заявку</h4>
-                    <p>Переглядайте всю історію комунікації та додавайте коментарі.</p>
-                    <div class="image-placeholder">Деталі заявки</div>
+                    <h4>Відслідковуйте прогрес</h4>
+                    <p>📊 Натисніть на заявку, щоб побачити всю історію комунікації з технічною командою.</p>
+                    <!-- 📸 [Скріншот: Деталі конкретної заявки] -->
                 </div>
             </div>
         </div>
 
         <hr class="divider">
 
-        <!-- SECTION 9: FAQ -->
-        <h2 id="section9">❓ FAQ</h2>
+        <!-- SECTION 13: FAQ -->
+        <h2 id="section13">❓ FAQ — Часто задавані питання</h2>
 
         <div class="faq-item">
-            <div class="faq-question">❓ Що робити якщо не приходить лист?</div>
+            <div class="faq-question">❓ Що робити, якщо не приходить лист для встановлення пароля?</div>
             <div class="faq-answer">
-                📧 Перевірте папку Spam. Якщо листа немає, спробуйте повторно або звертайтесь до техсупорту для ручної активації.
+                📧 Перевірте папки <strong>Spam, Promotions, Інше</strong>. Якщо листа немає, спробуйте повторно використати форму входу або звертайтесь до відповідального за інтеграцію. Зазвичай процес займає 5-15 хвилин.
             </div>
         </div>
 
         <div class="faq-item">
-            <div class="faq-question">❓ Що робити якщо проблема складна?</div>
+            <div class="faq-question">❓ Що робити, якщо проблема складна і важко описати?</div>
             <div class="faq-answer">
-                🎥 Використайте Jam для запису сценарію. Це дасть технічній команді повний контекст без додаткових питань.
+                🎥 Використайте <strong>Jam</strong> — запишіть весь сценарій від початку до проблеми. Це дасть технічній команді повний контекст, і вони швидко зрозуміють проблему без додаткових питань.
             </div>
         </div>
 
         <div class="faq-item">
-            <div class="faq-question">❓ Як довго чекати відповіді?</div>
+            <div class="faq-question">❓ Що робити, якщо достатньо одного зображення?</div>
             <div class="faq-answer">
-                ⏱️ <strong>Блокуючий баг:</strong> в той же день | <strong>Звичайний баг:</strong> 1-2 дні | <strong>Improvement:</strong> за графіком спринту
+                📸 Використайте <strong>Lightshot</strong>. Зробіть скріншот, обведіть проблемну область та вставте у форму заявки (Ctrl+V / Cmd+V). Це займе максимум 30 секунд!
             </div>
         </div>
 
         <div class="faq-item">
-            <div class="faq-question">❓ Можна додати кілька Jam-посилань?</div>
+            <div class="faq-question">❓ Що робити, якщо проблема блокує роботу?</div>
             <div class="faq-answer">
-                ✅ Так! Якщо проблема проявляється в кількох місцях, додайте кілька записів для повного контексту.
+                🔴 У полі <strong>"Чи блокує робочий процес"</strong> обберіть <strong>Yes</strong> та додайте максимум контексту: посилання, скріншот, Jam або відео. Також повідомте відповідального менеджера для пришвидшення.
             </div>
         </div>
 
         <div class="faq-item">
-            <div class="faq-question">❓ Як бути якщо проблема блокує роботу?</div>
+            <div class="faq-question">❓ Можна додавати кілька Jam-посилань в одну заявку?</div>
             <div class="faq-answer">
-                🔴 Виберіть "Блокує роботу: Yes" та додайте максимум контексту. Також повідомте менеджера для пришвидшення.
+                ✅ Так, можна! Якщо проблема проявляється в кількох місцях, додайте кілька записів. Але рекомендується не більше 3–5 для читабельності та швидкості аналізу.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">❓ Як довго очікувати відповіді на заявку?</div>
+            <div class="faq-answer">
+                ⏱️ Залежить від пріоритету:
+                <ul style="margin-top: 10px;">
+                    <li>🔴 <strong>Блокуючий дефект:</strong> в той же день</li>
+                    <li>🟡 <strong>Звичайний дефект:</strong> 1–2 дні</li>
+                    <li>🟢 <strong>Improvement:</strong> за графіком спринту</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">❓ Як відстежити статус заявки?</div>
+            <div class="faq-answer">
+                📊 Перейдіть в розділ <strong>"Запити"</strong> у меню профілю. Там буде список усіх ваших заявок зі статусами: Open, In Progress, Resolved, Closed. Ви завжди можете бачити актуальний статус та читати коментарі команди.
             </div>
         </div>
 
         <hr class="divider">
 
-        <!-- SECTION 10: CONCLUSION -->
-        <h2 id="section10">🎯 Висновок</h2>
+        <!-- SECTION 14: REFERENCES -->
+        <h2 id="section14">📌 Посилання на важливі ресурси</h2>
+
+        <p>Актуальні посилання для роботи з Jira Service Desk:</p>
+
+        <div class="checklist">
+            <h4>🔗 Корисні ресурси:</h4>
+            <ol>
+                <li><!-- Help Center: [вставити ваше актуальне посилання] --></li>
+                <li><!-- Jam.dev: [вставити актуальне посилання на Jam] --></li>
+                <li><!-- Lightshot: [вставити актуальне посилання на Lightshot] --></li>
+                <li><!-- Документація Jira Service Desk: [вставити посилання] --></li>
+                <li><!-- Контакт технічної підтримки: [вставити контактні дані] --></li>
+            </ol>
+        </div>
+
+        <div class="info-block">
+            <strong>💡 Зберіганите ці посилання у закладках</strong>
+            <p>Це допоможе вам швидше звертатися до потрібних ресурсів без пошуку!</p>
+        </div>
+
+        <hr class="divider">
+
+        <!-- SECTION 15: CONCLUSION -->
+        <h2 id="section15">🎯 Висновок</h2>
 
         <div class="info-block success">
-            <strong>📌 Запам'ятайте:</strong>
-            <p>🚀 <strong>Jira Service Desk</strong> — це ваш зручний канал для передачі інформації про баги та пропозиції.</p>
+            <strong>📌 Запам'ятайте</strong>
+            <p>🚀 <strong>Jira Service Desk</strong> — це ваш зручний канал для передачі технічній команді інформації про баги, покращення та пропозиції.</p>
             <p style="margin-top: 18px;"><strong>✨ Чим якісніше оформлена заявка, тим:</strong></p>
             <ul style="margin-top: 14px;">
                 <li>⚡ Швидше вона буде проаналізована</li>
-                <li>❓ Менше буде уточнень</li>
-                <li>🔧 Швидше буде рішення</li>
-                <li>💬 Менше комунікацій потрібно</li>
+                <li>❓ Менше буде уточнень і питань</li>
+                <li>🔧 Швидше команда надасть рішення або запустить зміни</li>
+                <li>💬 Менше часу витратиться на комунікацію</li>
             </ul>
         </div>
 
@@ -1381,33 +1854,31 @@
             </div>
             <div class="stat-box">
                 <div class="stat-number">3️⃣</div>
-                <div class="stat-label">Типи інструментів</div>
+                <div class="stat-label">Інструменти (Jam, Lightshot, Посилання)</div>
             </div>
             <div class="stat-box">
-                <div class="stat-number">∞</div>
+                <div class="stat-number">♾️</div>
                 <div class="stat-label">Якість комунікації</div>
             </div>
         </div>
 
         <div class="info-block">
             <strong>🚀 Почніть прямо зараз!</strong>
-            <p>✅ Реєструйтесь в Help Center, спробуйте створити тестову заявку, і ви побачите, як легко це буде в майбутньому!</p>
+            <p>✅ Реєструйтесь в Help Center, спробуйте створити тестову заявку, і ви побачите, як легко це буде в майбутньому. Документ завжди при вас — просто повертайтесь до потрібного розділу!</p>
         </div>
 
         <hr class="divider">
 
         <!-- FOOTER -->
         <div class="footer">
-            <p>📄 Документ версії 3.0 | Остання обновлення: березня 2026</p>
+            <p>📄 Документ версії 3.1 | 15 Секцій Premium Edition | Останнє оновлення: березня 2026</p>
             <p>📧 За запитаннями звертайтесь до технічної команди</p>
             <div class="footer-icons">
                 <span title="Якість">✅</span>
                 <span title="Швидкість">⚡</span>
-                <span title="Стабільність">🎯</span>
+                <span title="Рекомендація">🎯</span>
             </div>
-            <p style="margin-top: 25px; opacity: 0.7; font-size: 0.9rem;">
-                Внутрішня інструкція компанії. Використовується для оптимізації процесів роботи з Jira Service Desk.
-            </p>
+            <p style="margin-top: 25px; opacity: 0.7; font-size: 0.9rem;">Цей документ є внутрішньою інструкцією компанії. Використовується тільки для навчання та оптимізації процесів роботи з Jira Service Desk.</p>
         </div>
 
     </div>
@@ -1503,7 +1974,7 @@
         });
     });
 
-    console.log('🎉 Jira Service Desk Guide v3.0 завантажено! Бажаємо вам чудових заявок!');
+    console.log('🎉 Jira Service Desk Guide v3.1 (Premium Edition 15 Sections) завантажено! Бажаємо вам чудових заявок!');
 </script>
 
 </body>
